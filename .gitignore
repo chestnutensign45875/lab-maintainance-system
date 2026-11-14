@@ -1,0 +1,19 @@
+# Maven build output
+target/
+!target/LabEquipmentSystem.jar
+
+# Local tooling & dependencies cache
+.tools/
+.m2/
+
+# SQLite local runtime db
+*.db-journal
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Temporary zone identifier files
+*:Zone.Identifier
